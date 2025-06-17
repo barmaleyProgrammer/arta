@@ -7,7 +7,7 @@
     "start": "vite",
     "build": "vite build",
     "electron": "electron .",
-    "pack": "electron-packager . TestyApp --platform=win32 --arch=x64 --out=release-build --overwrite",
+    "pack": "electron-packager . Arta --platform=win32 --arch=x64 --out=release-build --overwrite",
     "dist": "electron-builder"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@vitejs/plugin-react": "^4.4.0",
     "electron": "^27.1.1",
     "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2",
     "vite": "^5.2.0"
   },
   "build": {
